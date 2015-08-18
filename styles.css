@@ -1,0 +1,703 @@
+@charset "UTF-8";
+.wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 700px;
+	width: 80%;
+	height: 700px;	
+}
+
+.wrapper header {
+	padding:0px;
+	/*height:30%;*/
+}
+
+.wrapper header h1 {
+	font-family: abel;
+	font-style: normal;
+	font-weight: 400;
+	font-size:  3em;
+	color:#726A6A;
+	height:45%;
+
+}
+.wrapper #mainNav{
+	
+}
+.wrapper #mainNav ul {
+	margin: 0px;
+	height:100%;
+	padding: 0px;
+	/*height:10px;*/
+	
+}
+
+
+#mainNav ul li {
+	list-style: none;
+	text-transform: uppercase;
+	
+}
+
+#mainNav ul li a {
+	color: #FFFFFF;
+	color:#726A6A;
+	padding-top: 5px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 5px;
+	text-align:center;
+	text-decoration: none;
+	font-size: 1.2em;
+	float: left;
+	/*width: 16.6%;*/
+	width:20%;
+	
+}
+.wrapper #mainNav ul li a:hover{
+	background-color: #726A6A;
+	color:#F4ECEC;
+}
+
+#mainNav ul li .here{
+	background-color:#726A6A;
+	color:rgba(250,242,243,1.00);
+}
+
+
+body {
+	font-family: abel;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.wrapper #slideshow {
+	padding-left:0px;
+	padding-right:0px;
+	position: relative;
+	width:100%;
+	/*height:80%;*/
+	margin-top:20px;
+}
+
+.wrapper .pic_info {
+	padding:0px;
+	margin-top:0px;
+	height:20%;
+
+}
+
+	
+.wrapper .pic_info .left {
+	width: 45%;
+	float: left;
+	height:90%;
+	
+}
+.wrapper .pic_info .right {
+	width: 45%;
+	float: right;
+	align-content:center;
+	height:90%;
+	
+	
+}
+.pic_info .left p {
+	float: right;
+	width:55%;
+	padding-top:0px;
+	display:inline;
+	
+}
+.pic_info .right p {
+	float: right;
+	width:55%;
+	padding-top:0px;
+	display:inline;
+	
+	
+}
+
+.pic_info .right p a {
+	text-decoration: none;
+	color:#726A6A;
+}
+
+.pic_info .left p a{
+	text-decoration: none;
+	color:#726A6A;
+}
+
+
+.wrapper .my_footer {
+	width: 100%;
+	
+	/*min-height:130px;*/
+	
+	height:80px;
+	padding:0px;
+	margin:0px;
+	color: #CCC7C8;
+	text-transform: uppercase;
+	background-color:#6F6A6A;
+	font-size:10pt;
+}
+.wrapper .my_footer .column_one {
+	width: 33.33%;
+	float:left;
+	height:100%;
+	right:66.66%;
+	text-align:left;
+}
+.wrapper .my_footer .column_two {
+	width: 33.33%;
+	left: 33%;
+	right: 33%;
+	height:100%;
+	float:left;
+	align-content:center;
+	text-align:left;
+}
+.wrapper .my_footer .column_three {
+	width: 33.33%;
+	float: left;
+	left: 66.66%;
+	/*height:130px;*/
+	height:100%;
+	text-align:left;
+	align-content:center;
+}
+
+.my_footer .column_one ul li{
+	list-style-type:none;
+	display:block;
+	text-decoration:none;
+	color:#F4ECEC;
+	text-transform:uppercase;
+	border-bottom: thin solid #DAD4D4;
+	text-align:left;
+}
+
+.my_footer .column_one ul li a{
+	text-decoration:none;
+	color:#F4ECEC;
+}
+
+.my_footer .column_two ul li{
+	list-style-type:none;
+	display:block;
+	text-decoration:none;
+	color:#F4ECEC;
+	text-transform:uppercase;
+	border-bottom: thin solid #F4ECEC;
+	text-align:left;
+}
+	
+.my_footer .column_two ul li a{
+	text-decoration:none;
+	color:#F4ECEC;
+}
+	
+.my_footer .column_three ul li{
+	list-style-type:none;
+	display:block;
+	text-decoration:none;
+	color:#F4ECEC;
+	text-transform:uppercase;
+	border-bottom: thin solid #F4ECEC;
+	text-align:left;
+}
+
+.my_footer .column_three ul li a{
+	text-decoration:none;
+	color:#F4ECEC;
+}
+	
+/*gallery.html*/
+
+ .image
+{
+    background:images/bigsur.jpeg;
+    height:100px;
+    width:100px;
+    display: block;
+}
+
+.image  a {
+    display: none;
+}
+
+.image  a:hover {
+    display: block;
+}	
+
+.wrapper #row_one a {
+	width: 100%;
+	height: 50%;
+}
+.wrapper div .recipe_categories {
+	float: right;
+	width:30%;
+	text-align:left;
+	text-transform:capitalize;
+}
+.wrapper div .recipe_text_image {
+	float: left;
+	width: 65%;
+	text-align:left;
+	text-transform:uppercase;
+}
+div .recipe_categories ul {
+}
+.wrapper p #copyright {
+	color: #000000;
+	font-size: 1em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-family: abel;
+	font-style: normal;
+	font-weight: 400;
+}
+
+
+.wrapper #contact_main {
+	width: 100%;
+	height:700px;
+	text-transform:capitalize;
+}
+
+.wrapper #contact_main .first {
+	width: 100%;
+	float: left;
+	text-transform: capitalize;
+	height:15%;
+}
+.wrapper #contact_main .last{
+	height:15%;
+	float:left;
+	width:100%;
+}
+
+.wrapper #contact_main .email{
+	height:15%;
+	float:left;
+	width:100%;
+}
+
+.wrapper #contact_main .message{
+	height:25%;
+	float:left;
+	width:100%;
+	
+}
+.wrapper #contact_main .submit{
+	height:25%;
+	float:left;
+	align-content:center;
+	width:100%;
+}
+
+#contact_main  h4 {
+	width: 20%;
+}
+#contact_main .first #first_name {
+	float: left;
+	width: 350px;
+	height: 30px;
+	margin-top:15px;
+}
+
+#contact_main .last #last_name{
+	float:left;
+	width:350px;
+	height:30px;
+	margin-top:15px; 
+}
+#contact_main .email #email_id{
+	float:left;
+	width:350px;
+	height:30px;
+	margin-top:15px;
+}
+#contact_main .message #msg{
+	float:left;
+	width:350px;
+	height:200px;
+	margin-top:15px;
+}
+.wrapper #main_about {
+	height: 700px;
+	width: 100%;
+}
+
+/*travel page*/
+.wrapper #gallery_main {
+	/*height: 700px;*/
+	width: 100%;
+	float:left;
+}
+
+.lassen_desc, .crater_desc, .cruz_desc, .teton_desc{
+	opacity:0;
+}
+
+.lassen:hover .lassen_desc{
+	opacity:1;
+	color:rgba(0,0,0,1.00);
+	display:inline;
+}
+ .crater:hover .crater_desc{
+	 opacity:1;
+	 color:rgba(0,0,0,1.00);
+	 display:inline;
+ }
+ 
+ .teton:hover .teton_desc{
+	 opacity:1;
+	 color:rgba(0,0,0,1.00);
+	 display:inline;
+ }
+ .cruz:hover .cruz_desc{
+	 opacity:1;
+	 color:rgba(0,0,0,1.00);
+	 display:inline;
+ }
+#gallery_main #gallery_row_one .lassen {
+	width: 33.33%;
+	height: 226px;
+	float: left;
+	/*background-image:url(images/lassen.JPG);*/
+}
+
+#gallery_main #gallery_row_one .lassen:hover{
+	-webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+#gallery_main #gallery_row_one .crater {
+	width: 66%;
+	height: 226px;
+
+	float: left;
+	/*background-image:url(images/travel_images/crater_lake.JPG);*/
+}
+#gallery_main #gallery_row_one .crater:hover{
+	-webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.wrapper #gallery_main #gallery_row_one {
+	width: 100%;
+	height: 226px;
+	margin-top:20px;
+}
+.wrapper #gallery_main #gallery_row_two {
+	width: 100%;
+	height: 226px;
+}
+#gallery_main #gallery_row_two .teton {
+	width: 66%;
+	height: 226px;
+	float: left;
+	/*background-image:url(images/travel_images/grand_teton.JPG);*/
+}
+
+#gallery_main #gallery_row_two .teton:hover{
+	-webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+#gallery_main #gallery_row_two .cruz {
+	width: 33.33%;
+	height: 226px;
+	float: left;
+	/*background-image:url(images/travel_images/santa_cruz.JPG);*/
+}
+
+#gallery_main #gallery_row_two .cruz:hover{
+	-webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+#gallery_row{
+	width:100%;
+	height:226px;
+	margin-bottom:50px;
+}
+
+#gallery_row .lassen{
+	width: 33.33%;
+	height: 226px;
+	float: left;
+	/*background-image:url(images/travel_images/yosemite.JPG);*/
+}
+
+#gallery_row .lassen:hover{
+	-webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#gallery_row .crater{
+	width: 66%;
+	height: 226px;
+
+	float: left;
+	/*background-image:url(images/travel_images/yellowstone.JPG);*/
+}
+
+#gallery_row .crater:hover{
+	-webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+
+#.wrapper #gallery_main #lassen_info {
+}
+.wrapper #gallery_main #lassen_info {
+	width: 65%;
+	float: left;
+	margin-right:70px;
+}
+.wrapper #gallery_main .sec_nav {
+	width: 25%;
+	float: right;
+	margin:0px;
+	padding:0px;
+}
+.sec_nav ul li {
+	text-decoration: none;
+	list-style-type: none;
+	text-transform: capitalize;
+}
+.sec_nav ul li a {
+	text-decoration: none;
+	color: #6F6A6A;
+}
+.wrapper #gallery_main #yellowstone_info {
+	width: 65%;
+	float: left;
+	margin-right:70px;
+}
+.wrapper #gallery_main #santa_info {
+	width: 65%;
+	float: left;
+	margin-right:70px;
+}
+
+.wrapper #gallery_main #grand_info{
+	width: 65%;
+	float: left;
+	margin-right:70px;
+}
+
+.wrapper #gallery_main #crater_info{
+	width:65%;
+	float:left;
+	margin-right:70px;
+}
+.wrapper #recipe_main {
+	/*height: 700px;*/
+	width: 100%;
+	float:left;
+	margin-top:20px;
+}
+
+.wrapper #recipe_main #recipe_row_one .chana_dal{
+	width: 33.33%;
+	height: 300px;
+	float: left;
+	/*background-image:url(images/recipe_images/chanadal_payasa.jpeg);*/
+}
+
+.wrapper #recipe_main #recipe_row_one .samosa{
+	width: 66%;
+	height: 300px;
+	float: left;
+	/*background-image:url(images/recipe_images/samosa_chaat.jpg);*/
+}
+
+.chana_desc, .samosa_desc, .paratha_desc, .dill_desc, .paneer_butter_desc, .bhel_desc{
+	opacity:0;
+	
+	
+}
+
+.chana_dal:hover .chana_desc{
+	opacity: 1;
+	color: #000000;
+	
+}
+
+.samosa:hover .samosa_desc{
+	opacity:1;
+	color:#E09439;
+	
+}
+
+.paratha:hover .paratha_desc{
+	opacity:1;
+	color:#83D427;
+	
+}
+
+.dill:hover .dill_desc{
+	opacity:1;
+	color:#000000;
+}
+
+.panner_butter:hover .paneer_butter_desc{
+	opacity:1;
+	color:#000000;
+}
+
+.bhel:hover .bhel_desc{
+	opacity:1;
+	color:#000000;
+}
+
+.chana_dal:hover{
+	-webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.samosa:hover{
+	-webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.dill:hover{
+	-webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.panner_butter:hover{
+	-webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.bhel:hover{
+	-webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.paratha:hover{
+	-webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#recipe_main #recipe_row_two{
+	width: 100%;
+	height: 300px;
+	margin-bottom:3%;
+}
+
+#recipe_main #recipe_row_two .paratha{
+	width: 66%;
+	height: 300px;
+	float: left;
+	/*background-image:url(images/recipe_images/paratha.JPG);*/
+}
+
+#recipe_main #recipe_row_two .dill{
+	width: 33.33%;
+	height: 300px;
+	float: left;
+	/*background-image:url(images/recipe_images/dill_rice_ready.JPG);*/
+}
+
+#recipe_main #recipe_row .panner_butter{
+	width: 33.33%;
+	height: 300px;
+	float: left;
+/*	background-image:url(images/recipe_images/paneer_butter.jpg);*/
+}
+
+#recipe_main #recipe_row .bhel{
+	width: 66%;
+	height: 300px;
+	float: left;
+/*	background-image:url(images/recipe_images/bhel.JPG);*/
+}
+
+/*samosa.html*/
+
+#recipe_main #samosa_info{
+	width:65%;
+	float:left;
+	margin-right:70px;
+}
+
+#recipe_main .sec_nav{
+	width: 25%;
+	float: right;
+	margin:0px;
+	padding:0px;
+}
+#recipe_main #paratha_info{
+	width:65%;
+	float:left;
+	margin-right:70px;
+}
+	
+#recipe_main #dill_info{
+	width:65%;
+	float:left;
+	margin-right:70px;
+}
+
+#recipe_main #chana_info
+{
+	width:65%;
+	float:left;
+	margin-right:70px;
+}
+
+#recipe_main #bhel_info{
+	width:60%;
+	float:left;
+	margin-right:70px;
+}
+
+#recipe_main #paneer_info{
+	width:65%;
+	float:left;
+	margin-right:70px;
+}
+	.wrapper #main_about #about {
+	width: 60%;
+	float: left;
+	margin-right: 70px;
+}
+.wrapper #main_about #about_pic {
+	width: 30%;
+	float: left;
+	display:inline;
+}
+.wrapper #recipe_main #recipe_row {
+	margin-bottom: 3%;
+}
+.wrapper #recipe_main #recipe_row_one {
+	margin-bottom: 3%;
+}
+a .samosa .samosa_desc {
+	color: #000000;
+}
